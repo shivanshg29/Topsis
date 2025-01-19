@@ -26,14 +26,14 @@ pip install topsis-Shivansh-102203508
 ### Command Line Interface
 
 ```bash
-topsis   
+topsis <InputDataFile> <Weights> <Impacts> <ResultFileName>
 ```
 
 ### Parameters:
 
 - `InputDataFile`: Excel file (.xlsx) containing the decision matrix
 - `Weights`: Comma-separated weights for each criterion (e.g., "0.25,0.25,0.25,0.25")
-- `Impacts`: Comma-separated impacts for each criterion ('+' for positive, '-' for negative) (e.g., "+,+,-,+")
+- `Impacts`: Comma-separated impacts for each criterion ('+' for positive, '-' for negative) (e.g., "-,+,+,+")
 - `ResultFileName`: Output Excel file name where results will be saved
 
 ### Example:
