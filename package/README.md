@@ -18,7 +18,7 @@ The package provides functionality to:
 You can install the package via pip:
 
 ```bash
-pip install topsis-python
+pip install topsis-Shivansh-102203508
 ```
 
 ## Usage
@@ -26,20 +26,20 @@ pip install topsis-python
 ### Command Line Interface
 
 ```bash
-python topsis.py    
+topsis <InputDataFile> <Weights> <Impacts> <ResultFileName>
 ```
 
 ### Parameters:
 
 - `InputDataFile`: Excel file (.xlsx) containing the decision matrix
 - `Weights`: Comma-separated weights for each criterion (e.g., "0.25,0.25,0.25,0.25")
-- `Impacts`: Comma-separated impacts for each criterion ('+' for positive, '-' for negative) (e.g., "+,+,-,+")
+- `Impacts`: Comma-separated impacts for each criterion ('+' for positive, '-' for negative) (e.g., "-,+,+,+")
 - `ResultFileName`: Output Excel file name where results will be saved
 
 ### Example:
 
 ```bash
-python topsis.py input.xlsx "0.25,0.25,0.25,0.25" "+,+,-,+" result.xlsx
+topsis input.xlsx "0.25,0.25,0.25,0.25" "+,+,-,+" result.xlsx
 ```
 
 ### Input File Format
@@ -93,7 +93,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```python
 import pandas as pd
-from topsis import topsis
+from topsis-Shivansh-102203508 import topsis
 
 # Read your data
 df = pd.read_excel('input.xlsx')

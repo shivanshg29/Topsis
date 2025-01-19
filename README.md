@@ -2,6 +2,10 @@
 
 A Python package for implementing the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) method.
 
+## Publishing
+
+This package is published on [pypi.org](https://pypi.org/project/topsis-Shivansh-102203508/)
+
 ## Description
 
 TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) is a multi-criteria decision analysis method. This implementation helps decision makers to find the best alternative from a finite set of alternatives based on multiple criteria.

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="topsis-Shivansh-102203508",
-    version="1.0.0",
+    version="1.0.1",
     author="Shivansh Gupta",
     author_email="shivanshgupta290804@gmail.com",
     description="A Python package for performing TOPSIS analysis.",
